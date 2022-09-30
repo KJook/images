@@ -1,4 +1,4 @@
-
+	document.write('<div id="live2dc" style="position:fixed;left:18px;bottom:20px;padding:0"><canvas id="live2d" width="190" height="200" class="live2d" style="opacity:1;pointer-events : none;"></canvas></div>');
 	if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 		console.log("hide Live2D");
 		$("#live2dc").hide();
