@@ -1,5 +1,5 @@
 window.onload = function () {
-
+	console.log("Live2d Frome KJQAQ");
 	dragElement(document.getElementById(("live2dc")));
 
 	function dragElement(elmnt) {
