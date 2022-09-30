@@ -1,3 +1,4 @@
+window.onload = function () {
 
 	dragElement(document.getElementById(("live2dc")));
 
@@ -45,8 +46,7 @@
 	}
 
 	if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-		$("#live2dc")
-			.hide();
+		$("#live2dc").hide();
 		// 执行相应代码或直接跳转到手机页面
 	} else {
 		var resourcesPath = 'https://i.kjqaq.com/live2d/';
@@ -54,3 +54,4 @@
 		var modelDir = ['Hiyori'];
 		initDefine(resourcesPath, backImageName, modelDir);
 	}
+}
